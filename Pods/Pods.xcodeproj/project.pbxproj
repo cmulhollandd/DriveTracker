@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135C9316307DF39B03ABA2BDCA22A363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		33290CD90BE30BBB510CAE80EAABE567 /* Pods-DriveTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CEAD29769CA885B5CB3739B749E8BD /* Pods-DriveTrackerTests-dummy.m */; };
+		3B59483E60B18B0944A66D06B51A9A93 /* Pods-DriveTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DB9EACE73405FCF4DFDE2EE9BA73FE /* Pods-DriveTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E271A9E64A062643A595AB4F01C7B /* Pods-DriveTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A4B8EDF4AD3C46166549A91EA9AB6 /* Pods-DriveTracker-dummy.m */; };
+		540899A640484AFF62B67EDA90776CFC /* Pods-DriveTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB88D6E5DFF629AAC3281483130B547 /* Pods-DriveTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6604E811C2BF3733BB70BC49E751CCB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8D4A12502196591A3A35CB982BE3B3A1 /* Pods-DriveTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F80703CE80E32D1A057274B342B4F9CF /* Pods-DriveTrackerUITests-dummy.m */; };
+		9161C7E3D128F6B413D691E221F4E2E1 /* Pods-DriveTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8802FE6E20B4924635DD7015F461456A /* Pods-DriveTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B179562F72F5FC822557C796F7B60734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1909FE6CEE9F986E0C38109F3A052684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FEC895E209F70D387BC26BFF7AF947;
+			remoteInfo = "Pods-DriveTracker";
+		};
+		24E85A1A56EECBD3AA1A17E290901AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FEC895E209F70D387BC26BFF7AF947;
+			remoteInfo = "Pods-DriveTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E65F645AC68AB922D9DC8A4309582E6 /* Pods-DriveTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E6764D10F4E8CD52BC55070634F6B8A /* Pods-DriveTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriveTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		1617E6382AEDA8E9B1A44FF705DB60A3 /* Pods-DriveTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DriveTracker.modulemap"; sourceTree = "<group>"; };
+		23B8A818C76CCB124CDF2C0803998C87 /* Pods-DriveTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTracker-frameworks.sh"; sourceTree = "<group>"; };
+		3547772F1CC44252013E4C81176596B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BB74A58840E71BDC367AC5C9C59C82 /* Pods-DriveTrackerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTrackerUITests-resources.sh"; sourceTree = "<group>"; };
+		4D3A4B8EDF4AD3C46166549A91EA9AB6 /* Pods-DriveTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DriveTracker-dummy.m"; sourceTree = "<group>"; };
+		4FA80AB2520B1F1C0BA66F987B0C8EBA /* Pods-DriveTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67E0D08E596EAE8FBE474D57601F8FFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA23DB6A05A27C6718974426DC70FF4 /* Pods-DriveTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DriveTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		7AB88D6E5DFF629AAC3281483130B547 /* Pods-DriveTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DriveTracker-umbrella.h"; sourceTree = "<group>"; };
+		7D14F1192102046CD916E3879BE96EDE /* Pods_DriveTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DriveTrackerUITests.framework; path = "Pods-DriveTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		837BE3CFAA662A83DA0B1A556A75928A /* Pods-DriveTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DriveTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8802FE6E20B4924635DD7015F461456A /* Pods-DriveTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DriveTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		8D57D1CF2059AC036693F94D7B6952C9 /* Pods-DriveTrackerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTrackerTests-resources.sh"; sourceTree = "<group>"; };
+		931AC017D3E13183B79D9301A79184A5 /* Pods-DriveTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DriveTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A6A87C842499965853AB499707C9849 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC35413CEBE3A0BAFD97860ED4E85E7 /* Pods-DriveTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DriveTrackerTests.modulemap"; sourceTree = "<group>"; };
+		A1C432CCCA644FB60CFCD6926EC166E0 /* Pods-DriveTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DriveTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A20E5CC833219FAE9E3FC07570489CCA /* Pods-DriveTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7DB9EACE73405FCF4DFDE2EE9BA73FE /* Pods-DriveTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DriveTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		AC7A6A572F04B07523D1B45481AF1270 /* Pods-DriveTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriveTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B546CE121798B8DDE52CEFFD0504305B /* Pods_DriveTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DriveTracker.framework; path = "Pods-DriveTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B645D70B3EB372A557433D02A557EA81 /* Pods-DriveTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTracker.release.xcconfig"; sourceTree = "<group>"; };
+		C66C18A5812C22660378754FB26A37F6 /* Pods-DriveTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DriveTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8E74832F3D8E7A769C0650C1F59DD4C /* Pods-DriveTracker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTracker-resources.sh"; sourceTree = "<group>"; };
+		D98A4ACAA795F300F7BDF6EA36EC3D0C /* Pods-DriveTrackerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DriveTrackerTests-frameworks.sh"; sourceTree = "<group>"; };
+		D9CEAD29769CA885B5CB3739B749E8BD /* Pods-DriveTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DriveTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		DF4249E1EE0CB77482C1B6721896AF03 /* Pods-DriveTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		E2415C39647B956934AA126B0EBF051A /* Pods-DriveTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F80703CE80E32D1A057274B342B4F9CF /* Pods-DriveTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DriveTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		F871150825E1A5AF801F1326DA20E821 /* Pods_DriveTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DriveTrackerTests.framework; path = "Pods-DriveTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4A03751272AA3D9098AAA0A6869ABF /* Pods-DriveTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DriveTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1939EEB383F78D7F2FD564AF7BDE39E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B179562F72F5FC822557C796F7B60734 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CA0B3DE3413DE23755A2FC3364F222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135C9316307DF39B03ABA2BDCA22A363 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6680A7D664345E372223E3C170DD11CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6604E811C2BF3733BB70BC49E751CCB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42689F811C5A1CFF048EB324E3B43EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B546CE121798B8DDE52CEFFD0504305B /* Pods_DriveTracker.framework */,
+				F871150825E1A5AF801F1326DA20E821 /* Pods_DriveTrackerTests.framework */,
+				7D14F1192102046CD916E3879BE96EDE /* Pods_DriveTrackerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65E25128024445ECA1E708D59CA8AD97 /* Pods-DriveTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A87C842499965853AB499707C9849 /* Info.plist */,
+				1617E6382AEDA8E9B1A44FF705DB60A3 /* Pods-DriveTracker.modulemap */,
+				931AC017D3E13183B79D9301A79184A5 /* Pods-DriveTracker-acknowledgements.markdown */,
+				0E6764D10F4E8CD52BC55070634F6B8A /* Pods-DriveTracker-acknowledgements.plist */,
+				4D3A4B8EDF4AD3C46166549A91EA9AB6 /* Pods-DriveTracker-dummy.m */,
+				23B8A818C76CCB124CDF2C0803998C87 /* Pods-DriveTracker-frameworks.sh */,
+				D8E74832F3D8E7A769C0650C1F59DD4C /* Pods-DriveTracker-resources.sh */,
+				7AB88D6E5DFF629AAC3281483130B547 /* Pods-DriveTracker-umbrella.h */,
+				DF4249E1EE0CB77482C1B6721896AF03 /* Pods-DriveTracker.debug.xcconfig */,
+				B645D70B3EB372A557433D02A557EA81 /* Pods-DriveTracker.release.xcconfig */,
+			);
+			name = "Pods-DriveTracker";
+			path = "Target Support Files/Pods-DriveTracker";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				42689F811C5A1CFF048EB324E3B43EAF /* Products */,
+				9DC45774F6456B39FF70D700B1A43937 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81670CD003ECEDEDBE3AC08617948DBA /* Pods-DriveTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3547772F1CC44252013E4C81176596B1 /* Info.plist */,
+				7AA23DB6A05A27C6718974426DC70FF4 /* Pods-DriveTrackerUITests.modulemap */,
+				837BE3CFAA662A83DA0B1A556A75928A /* Pods-DriveTrackerUITests-acknowledgements.markdown */,
+				AC7A6A572F04B07523D1B45481AF1270 /* Pods-DriveTrackerUITests-acknowledgements.plist */,
+				F80703CE80E32D1A057274B342B4F9CF /* Pods-DriveTrackerUITests-dummy.m */,
+				4FA80AB2520B1F1C0BA66F987B0C8EBA /* Pods-DriveTrackerUITests-frameworks.sh */,
+				49BB74A58840E71BDC367AC5C9C59C82 /* Pods-DriveTrackerUITests-resources.sh */,
+				A7DB9EACE73405FCF4DFDE2EE9BA73FE /* Pods-DriveTrackerUITests-umbrella.h */,
+				A20E5CC833219FAE9E3FC07570489CCA /* Pods-DriveTrackerUITests.debug.xcconfig */,
+				E2415C39647B956934AA126B0EBF051A /* Pods-DriveTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-DriveTrackerUITests";
+			path = "Target Support Files/Pods-DriveTrackerUITests";
+			sourceTree = "<group>";
+		};
+		8B0F6639AEB4277EB8BD2C9B8BB1D4A5 /* Pods-DriveTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				67E0D08E596EAE8FBE474D57601F8FFD /* Info.plist */,
+				9FC35413CEBE3A0BAFD97860ED4E85E7 /* Pods-DriveTrackerTests.modulemap */,
+				A1C432CCCA644FB60CFCD6926EC166E0 /* Pods-DriveTrackerTests-acknowledgements.markdown */,
+				C66C18A5812C22660378754FB26A37F6 /* Pods-DriveTrackerTests-acknowledgements.plist */,
+				D9CEAD29769CA885B5CB3739B749E8BD /* Pods-DriveTrackerTests-dummy.m */,
+				D98A4ACAA795F300F7BDF6EA36EC3D0C /* Pods-DriveTrackerTests-frameworks.sh */,
+				8D57D1CF2059AC036693F94D7B6952C9 /* Pods-DriveTrackerTests-resources.sh */,
+				8802FE6E20B4924635DD7015F461456A /* Pods-DriveTrackerTests-umbrella.h */,
+				FF4A03751272AA3D9098AAA0A6869ABF /* Pods-DriveTrackerTests.debug.xcconfig */,
+				0E65F645AC68AB922D9DC8A4309582E6 /* Pods-DriveTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-DriveTrackerTests";
+			path = "Target Support Files/Pods-DriveTrackerTests";
+			sourceTree = "<group>";
+		};
+		9DC45774F6456B39FF70D700B1A43937 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E25128024445ECA1E708D59CA8AD97 /* Pods-DriveTracker */,
+				8B0F6639AEB4277EB8BD2C9B8BB1D4A5 /* Pods-DriveTrackerTests */,
+				81670CD003ECEDEDBE3AC08617948DBA /* Pods-DriveTrackerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CBF146F92BF6D9171D568C495396778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9161C7E3D128F6B413D691E221F4E2E1 /* Pods-DriveTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD9942E3E1048E8948B5EE9104B4F98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B59483E60B18B0944A66D06B51A9A93 /* Pods-DriveTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDA946EF04EA5E00FF489638D8B9DDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540899A640484AFF62B67EDA90776CFC /* Pods-DriveTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2842E20A6DA36C4EE38649FBEF2C6DBD /* Pods-DriveTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6F64F9744338079DD9D01167AC4544 /* Build configuration list for PBXNativeTarget "Pods-DriveTrackerTests" */;
+			buildPhases = (
+				1CBF146F92BF6D9171D568C495396778 /* Headers */,
+				55C15A1EF7BE6B3E66FE7DAD65470702 /* Sources */,
+				6680A7D664345E372223E3C170DD11CA /* Frameworks */,
+				DB796D82AFA48BFDF5E24E02A9EA90EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF66A8AE1859D660BCF579677C9047C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DriveTrackerTests";
+			productName = "Pods-DriveTrackerTests";
+			productReference = F871150825E1A5AF801F1326DA20E821 /* Pods_DriveTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AFB96011C8A2C1F5AB9DE43BFD6C8E1 /* Pods-DriveTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0766433E8DC38990FC9371E19C8DBC3E /* Build configuration list for PBXNativeTarget "Pods-DriveTrackerUITests" */;
+			buildPhases = (
+				3DD9942E3E1048E8948B5EE9104B4F98 /* Headers */,
+				D4AFA7F71FBCCC947FB070C456932C09 /* Sources */,
+				31CA0B3DE3413DE23755A2FC3364F222 /* Frameworks */,
+				EF9784152D233A950D318D1DC136ED44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FDF14828C062A8F717FD4E857660CE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-DriveTrackerUITests";
+			productName = "Pods-DriveTrackerUITests";
+			productReference = 7D14F1192102046CD916E3879BE96EDE /* Pods_DriveTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49FEC895E209F70D387BC26BFF7AF947 /* Pods-DriveTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5665996A4A7E832C273BCAD435FE6B /* Build configuration list for PBXNativeTarget "Pods-DriveTracker" */;
+			buildPhases = (
+				6DDA946EF04EA5E00FF489638D8B9DDA /* Headers */,
+				FD7FEFC323F02688C33201003B02C103 /* Sources */,
+				1939EEB383F78D7F2FD564AF7BDE39E6 /* Frameworks */,
+				9C59FD20FBE57C37BED57E289FE26BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DriveTracker";
+			productName = "Pods-DriveTracker";
+			productReference = B546CE121798B8DDE52CEFFD0504305B /* Pods_DriveTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42689F811C5A1CFF048EB324E3B43EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FEC895E209F70D387BC26BFF7AF947 /* Pods-DriveTracker */,
+				2842E20A6DA36C4EE38649FBEF2C6DBD /* Pods-DriveTrackerTests */,
+				2AFB96011C8A2C1F5AB9DE43BFD6C8E1 /* Pods-DriveTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C59FD20FBE57C37BED57E289FE26BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB796D82AFA48BFDF5E24E02A9EA90EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9784152D233A950D318D1DC136ED44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C15A1EF7BE6B3E66FE7DAD65470702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33290CD90BE30BBB510CAE80EAABE567 /* Pods-DriveTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AFA7F71FBCCC947FB070C456932C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4A12502196591A3A35CB982BE3B3A1 /* Pods-DriveTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7FEFC323F02688C33201003B02C103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446E271A9E64A062643A595AB4F01C7B /* Pods-DriveTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FDF14828C062A8F717FD4E857660CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DriveTracker";
+			target = 49FEC895E209F70D387BC26BFF7AF947 /* Pods-DriveTracker */;
+			targetProxy = 24E85A1A56EECBD3AA1A17E290901AC6 /* PBXContainerItemProxy */;
+		};
+		AF66A8AE1859D660BCF579677C9047C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DriveTracker";
+			target = 49FEC895E209F70D387BC26BFF7AF947 /* Pods-DriveTracker */;
+			targetProxy = 1909FE6CEE9F986E0C38109F3A052684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BC25676C02D1326021E97AB9131B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4249E1EE0CB77482C1B6721896AF03 /* Pods-DriveTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTracker/Pods-DriveTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5C0EA07E9B24DE4AEE3EA6F93716CDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B645D70B3EB372A557433D02A557EA81 /* Pods-DriveTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTracker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTracker/Pods-DriveTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		877DD0B694FC0C70CD14B1BB3555AE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2415C39647B956934AA126B0EBF051A /* Pods-DriveTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTrackerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTrackerUITests/Pods-DriveTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6A90681562449FD073F8891292C7D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20E5CC833219FAE9E3FC07570489CCA /* Pods-DriveTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTrackerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTrackerUITests/Pods-DriveTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5B0EFF4DFF39DB950B6F6BC1427E0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E65F645AC68AB922D9DC8A4309582E6 /* Pods-DriveTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTrackerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTrackerTests/Pods-DriveTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6F14879EF2C7DE6C9507A62198A2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4A03751272AA3D9098AAA0A6869ABF /* Pods-DriveTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DriveTrackerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DriveTrackerTests/Pods-DriveTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0766433E8DC38990FC9371E19C8DBC3E /* Build configuration list for PBXNativeTarget "Pods-DriveTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A90681562449FD073F8891292C7D57 /* Debug */,
+				877DD0B694FC0C70CD14B1BB3555AE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6F64F9744338079DD9D01167AC4544 /* Build configuration list for PBXNativeTarget "Pods-DriveTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F14879EF2C7DE6C9507A62198A2E78 /* Debug */,
+				E5B0EFF4DFF39DB950B6F6BC1427E0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5665996A4A7E832C273BCAD435FE6B /* Build configuration list for PBXNativeTarget "Pods-DriveTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BC25676C02D1326021E97AB9131B79 /* Debug */,
+				5C0EA07E9B24DE4AEE3EA6F93716CDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

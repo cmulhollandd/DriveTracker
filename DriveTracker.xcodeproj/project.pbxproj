@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080A8773211E7721003B80BC /* InfoIcon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 080A876F211E7720003B80BC /* InfoIcon@1x.png */; };
+		08149F3621BF3662002002C1 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08149F3421BF3662002002C1 /* Trip+CoreDataClass.swift */; };
+		08149F3721BF3662002002C1 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08149F3521BF3662002002C1 /* Trip+CoreDataProperties.swift */; };
+		081B1A48211A89710036B6FE /* TripInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081B1A47211A89710036B6FE /* TripInfoViewController.swift */; };
+		082912FF211E403D001BAC73 /* InfoIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912F6211E403C001BAC73 /* InfoIcon@3x.png */; };
+		08291300211E403D001BAC73 /* InfoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912F7211E403C001BAC73 /* InfoIcon@2x.png */; };
+		08291301211E403D001BAC73 /* CarIcon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912F8211E403C001BAC73 /* CarIcon@1x.png */; };
+		08291302211E403D001BAC73 /* CarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912F9211E403C001BAC73 /* CarIcon@2x.png */; };
+		08291303211E403D001BAC73 /* TripsIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912FA211E403C001BAC73 /* TripsIcon@3x.png */; };
+		08291305211E403D001BAC73 /* CarIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912FC211E403C001BAC73 /* CarIcon@3x.png */; };
+		08291306211E403D001BAC73 /* TripsIcon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912FD211E403C001BAC73 /* TripsIcon@1x.png */; };
+		08291307211E403D001BAC73 /* TripsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 082912FE211E403D001BAC73 /* TripsIcon@2x.png */; };
+		0841DC7F210AC08D0051D1D5 /* DriveTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0841DC7D210AC08D0051D1D5 /* DriveTracker.xcdatamodeld */; };
+		084D7AE721001DDB00C26C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D7AE621001DDB00C26C78 /* AppDelegate.swift */; };
+		084D7AEC21001DDB00C26C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084D7AEA21001DDB00C26C78 /* Main.storyboard */; };
+		084D7AEE21001DDD00C26C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084D7AED21001DDD00C26C78 /* Assets.xcassets */; };
+		084D7AF121001DDD00C26C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084D7AEF21001DDD00C26C78 /* LaunchScreen.storyboard */; };
+		084D7AFC21001DDD00C26C78 /* DriveTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D7AFB21001DDD00C26C78 /* DriveTrackerTests.swift */; };
+		084D7B0721001DDD00C26C78 /* DriveTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D7B0621001DDD00C26C78 /* DriveTrackerUITests.swift */; };
+		084D7B15210023B400C26C78 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D7B14210023B400C26C78 /* TrackViewController.swift */; };
+		0863316C21E90AF4008E43DC /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863316B21E90AF4008E43DC /* WelcomePageViewController.swift */; };
+		0863316E21E91472008E43DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863316D21E91472008E43DC /* WelcomeViewController.swift */; };
+		0863317021E91481008E43DC /* HoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863316F21E91481008E43DC /* HoursViewController.swift */; };
+		0863317221E9148A008E43DC /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863317121E9148A008E43DC /* LocationViewController.swift */; };
+		086AFEBC210117540062C949 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AFEBB210117540062C949 /* WeatherAPI.swift */; };
+		086AFEBE21011CEE0062C949 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086AFEBD21011CEE0062C949 /* Weather.swift */; };
+		086D2232210A5C62008C7D45 /* TripStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D2231210A5C62008C7D45 /* TripStore.swift */; };
+		086D2234210A5E57008C7D45 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D2233210A5E57008C7D45 /* TripsTableViewController.swift */; };
+		086D2236210A6C61008C7D45 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D2235210A6C61008C7D45 /* TripDetailViewController.swift */; };
+		08BA972C21055A6700D0AFCC /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA972B21055A6700D0AFCC /* TripTableViewCell.swift */; };
+		08BA972E210560E100D0AFCC /* TripFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA972D210560E100D0AFCC /* TripFinishedViewController.swift */; };
+		08BB60A12114E53D003F4D87 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BB60A02114E53D003F4D87 /* AddTripViewController.swift */; };
+		2DAE46A94544D8F6CC18BF27 /* Pods_DriveTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60937974A17F1530AA0CFC42 /* Pods_DriveTrackerTests.framework */; };
+		2DCA88D45BA15AD7E94C4B91 /* Pods_DriveTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDB288216F56B90EEAA698 /* Pods_DriveTracker.framework */; };
+		81980F93B4EB442C7275CA16 /* Pods_DriveTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F7759877AA8BC30CA56F94 /* Pods_DriveTrackerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		084D7AF821001DDD00C26C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084D7ADB21001DDB00C26C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084D7AE221001DDB00C26C78;
+			remoteInfo = DriveTracker;
+		};
+		084D7B0321001DDD00C26C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 084D7ADB21001DDB00C26C78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 084D7AE221001DDB00C26C78;
+			remoteInfo = DriveTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B92D6397612BAC62724566 /* Pods-DriveTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTrackerTests/Pods-DriveTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		080A876F211E7720003B80BC /* InfoIcon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InfoIcon@1x.png"; path = "../InfoIcon@1x.png"; sourceTree = "<group>"; };
+		08149F3421BF3662002002C1 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		08149F3521BF3662002002C1 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		081B1A47211A89710036B6FE /* TripInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewController.swift; sourceTree = "<group>"; };
+		082912F6211E403C001BAC73 /* InfoIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoIcon@3x.png"; sourceTree = "<group>"; };
+		082912F7211E403C001BAC73 /* InfoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InfoIcon@2x.png"; sourceTree = "<group>"; };
+		082912F8211E403C001BAC73 /* CarIcon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarIcon@1x.png"; sourceTree = "<group>"; };
+		082912F9211E403C001BAC73 /* CarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarIcon@2x.png"; sourceTree = "<group>"; };
+		082912FA211E403C001BAC73 /* TripsIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TripsIcon@3x.png"; sourceTree = "<group>"; };
+		082912FC211E403C001BAC73 /* CarIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CarIcon@3x.png"; sourceTree = "<group>"; };
+		082912FD211E403C001BAC73 /* TripsIcon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TripsIcon@1x.png"; sourceTree = "<group>"; };
+		082912FE211E403D001BAC73 /* TripsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TripsIcon@2x.png"; sourceTree = "<group>"; };
+		0841DC7E210AC08D0051D1D5 /* DriveTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriveTracker.xcdatamodel; sourceTree = "<group>"; };
+		084D7AE321001DDB00C26C78 /* DriveTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		084D7AE621001DDB00C26C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		084D7AEB21001DDB00C26C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		084D7AED21001DDD00C26C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		084D7AF021001DDD00C26C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		084D7AF221001DDD00C26C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084D7AF721001DDD00C26C78 /* DriveTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084D7AFB21001DDD00C26C78 /* DriveTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveTrackerTests.swift; sourceTree = "<group>"; };
+		084D7AFD21001DDD00C26C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084D7B0221001DDD00C26C78 /* DriveTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		084D7B0621001DDD00C26C78 /* DriveTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveTrackerUITests.swift; sourceTree = "<group>"; };
+		084D7B0821001DDD00C26C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		084D7B14210023B400C26C78 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		0863316B21E90AF4008E43DC /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		0863316D21E91472008E43DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0863316F21E91481008E43DC /* HoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursViewController.swift; sourceTree = "<group>"; };
+		0863317121E9148A008E43DC /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		086AFEBB210117540062C949 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		086AFEBD21011CEE0062C949 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		086D2231210A5C62008C7D45 /* TripStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStore.swift; sourceTree = "<group>"; };
+		086D2233210A5E57008C7D45 /* TripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		086D2235210A6C61008C7D45 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		08BA972B21055A6700D0AFCC /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		08BA972D210560E100D0AFCC /* TripFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFinishedViewController.swift; sourceTree = "<group>"; };
+		08BB60A02114E53D003F4D87 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		32DDB288216F56B90EEAA698 /* Pods_DriveTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60937974A17F1530AA0CFC42 /* Pods_DriveTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F7759877AA8BC30CA56F94 /* Pods_DriveTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98440C5E4485695D652868D /* Pods-DriveTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTrackerUITests/Pods-DriveTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2CC08255763F8462DDA361 /* Pods-DriveTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTracker/Pods-DriveTracker.release.xcconfig"; sourceTree = "<group>"; };
+		B31A3AE9809CBB9C59911639 /* Pods-DriveTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTrackerTests/Pods-DriveTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1273BD81356F87BF6FEE1CE /* Pods-DriveTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTracker/Pods-DriveTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		F74977FBDFE255E0DB06E280 /* Pods-DriveTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveTrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriveTrackerUITests/Pods-DriveTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084D7AE021001DDB00C26C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCA88D45BA15AD7E94C4B91 /* Pods_DriveTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7AF421001DDD00C26C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAE46A94544D8F6CC18BF27 /* Pods_DriveTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7AFF21001DDD00C26C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81980F93B4EB442C7275CA16 /* Pods_DriveTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08291308211E406F001BAC73 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				082912F8211E403C001BAC73 /* CarIcon@1x.png */,
+				082912F9211E403C001BAC73 /* CarIcon@2x.png */,
+				082912FC211E403C001BAC73 /* CarIcon@3x.png */,
+				080A876F211E7720003B80BC /* InfoIcon@1x.png */,
+				082912F7211E403C001BAC73 /* InfoIcon@2x.png */,
+				082912F6211E403C001BAC73 /* InfoIcon@3x.png */,
+				082912FD211E403C001BAC73 /* TripsIcon@1x.png */,
+				082912FE211E403D001BAC73 /* TripsIcon@2x.png */,
+				082912FA211E403C001BAC73 /* TripsIcon@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		08468B19210B76390013D7B3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0863316B21E90AF4008E43DC /* WelcomePageViewController.swift */,
+				0863316D21E91472008E43DC /* WelcomeViewController.swift */,
+				0863316F21E91481008E43DC /* HoursViewController.swift */,
+				0863317121E9148A008E43DC /* LocationViewController.swift */,
+				084D7B14210023B400C26C78 /* TrackViewController.swift */,
+				08BA972D210560E100D0AFCC /* TripFinishedViewController.swift */,
+				086D2233210A5E57008C7D45 /* TripsTableViewController.swift */,
+				086D2235210A6C61008C7D45 /* TripDetailViewController.swift */,
+				08BB60A02114E53D003F4D87 /* AddTripViewController.swift */,
+				081B1A47211A89710036B6FE /* TripInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		084D7ADA21001DDB00C26C78 = {
+			isa = PBXGroup;
+			children = (
+				084D7AE521001DDB00C26C78 /* DriveTracker */,
+				084D7AFA21001DDD00C26C78 /* DriveTrackerTests */,
+				084D7B0521001DDD00C26C78 /* DriveTrackerUITests */,
+				084D7AE421001DDB00C26C78 /* Products */,
+				B5934CAD49A81A1DB12E9F81 /* Pods */,
+				3788D19BDA2B2056F6A531EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		084D7AE421001DDB00C26C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				084D7AE321001DDB00C26C78 /* DriveTracker.app */,
+				084D7AF721001DDD00C26C78 /* DriveTrackerTests.xctest */,
+				084D7B0221001DDD00C26C78 /* DriveTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		084D7AE521001DDB00C26C78 /* DriveTracker */ = {
+			isa = PBXGroup;
+			children = (
+				084D7AE621001DDB00C26C78 /* AppDelegate.swift */,
+				08468B19210B76390013D7B3 /* ViewControllers */,
+				086D2231210A5C62008C7D45 /* TripStore.swift */,
+				08149F3421BF3662002002C1 /* Trip+CoreDataClass.swift */,
+				08149F3521BF3662002002C1 /* Trip+CoreDataProperties.swift */,
+				086AFEBB210117540062C949 /* WeatherAPI.swift */,
+				086AFEBD21011CEE0062C949 /* Weather.swift */,
+				08BA972B21055A6700D0AFCC /* TripTableViewCell.swift */,
+				084D7AEA21001DDB00C26C78 /* Main.storyboard */,
+				084D7AEF21001DDD00C26C78 /* LaunchScreen.storyboard */,
+				0841DC7D210AC08D0051D1D5 /* DriveTracker.xcdatamodeld */,
+				084D7AED21001DDD00C26C78 /* Assets.xcassets */,
+				08291308211E406F001BAC73 /* Images */,
+				084D7AF221001DDD00C26C78 /* Info.plist */,
+			);
+			path = DriveTracker;
+			sourceTree = "<group>";
+		};
+		084D7AFA21001DDD00C26C78 /* DriveTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				084D7AFB21001DDD00C26C78 /* DriveTrackerTests.swift */,
+				084D7AFD21001DDD00C26C78 /* Info.plist */,
+			);
+			path = DriveTrackerTests;
+			sourceTree = "<group>";
+		};
+		084D7B0521001DDD00C26C78 /* DriveTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				084D7B0621001DDD00C26C78 /* DriveTrackerUITests.swift */,
+				084D7B0821001DDD00C26C78 /* Info.plist */,
+			);
+			path = DriveTrackerUITests;
+			sourceTree = "<group>";
+		};
+		3788D19BDA2B2056F6A531EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DDB288216F56B90EEAA698 /* Pods_DriveTracker.framework */,
+				60937974A17F1530AA0CFC42 /* Pods_DriveTrackerTests.framework */,
+				84F7759877AA8BC30CA56F94 /* Pods_DriveTrackerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5934CAD49A81A1DB12E9F81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1273BD81356F87BF6FEE1CE /* Pods-DriveTracker.debug.xcconfig */,
+				AA2CC08255763F8462DDA361 /* Pods-DriveTracker.release.xcconfig */,
+				04B92D6397612BAC62724566 /* Pods-DriveTrackerTests.debug.xcconfig */,
+				B31A3AE9809CBB9C59911639 /* Pods-DriveTrackerTests.release.xcconfig */,
+				A98440C5E4485695D652868D /* Pods-DriveTrackerUITests.debug.xcconfig */,
+				F74977FBDFE255E0DB06E280 /* Pods-DriveTrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		084D7AE221001DDB00C26C78 /* DriveTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084D7B0B21001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTracker" */;
+			buildPhases = (
+				41C42F8355C59CADFD7845F9 /* [CP] Check Pods Manifest.lock */,
+				084D7ADF21001DDB00C26C78 /* Sources */,
+				084D7AE021001DDB00C26C78 /* Frameworks */,
+				084D7AE121001DDB00C26C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveTracker;
+			productName = DriveTracker;
+			productReference = 084D7AE321001DDB00C26C78 /* DriveTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		084D7AF621001DDD00C26C78 /* DriveTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084D7B0E21001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTrackerTests" */;
+			buildPhases = (
+				5E1BE0574604F204A2635D28 /* [CP] Check Pods Manifest.lock */,
+				084D7AF321001DDD00C26C78 /* Sources */,
+				084D7AF421001DDD00C26C78 /* Frameworks */,
+				084D7AF521001DDD00C26C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084D7AF921001DDD00C26C78 /* PBXTargetDependency */,
+			);
+			name = DriveTrackerTests;
+			productName = DriveTrackerTests;
+			productReference = 084D7AF721001DDD00C26C78 /* DriveTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		084D7B0121001DDD00C26C78 /* DriveTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 084D7B1121001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTrackerUITests" */;
+			buildPhases = (
+				8A0CE7C1F7E41B31FC3FD2B4 /* [CP] Check Pods Manifest.lock */,
+				084D7AFE21001DDD00C26C78 /* Sources */,
+				084D7AFF21001DDD00C26C78 /* Frameworks */,
+				084D7B0021001DDD00C26C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				084D7B0421001DDD00C26C78 /* PBXTargetDependency */,
+			);
+			name = DriveTrackerUITests;
+			productName = DriveTrackerUITests;
+			productReference = 084D7B0221001DDD00C26C78 /* DriveTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		084D7ADB21001DDB00C26C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Charlie Mulholland";
+				TargetAttributes = {
+					084D7AE221001DDB00C26C78 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					084D7AF621001DDD00C26C78 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 084D7AE221001DDB00C26C78;
+					};
+					084D7B0121001DDD00C26C78 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 084D7AE221001DDB00C26C78;
+					};
+				};
+			};
+			buildConfigurationList = 084D7ADE21001DDB00C26C78 /* Build configuration list for PBXProject "DriveTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 084D7ADA21001DDB00C26C78;
+			productRefGroup = 084D7AE421001DDB00C26C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				084D7AE221001DDB00C26C78 /* DriveTracker */,
+				084D7AF621001DDD00C26C78 /* DriveTrackerTests */,
+				084D7B0121001DDD00C26C78 /* DriveTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		084D7AE121001DDB00C26C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084D7AF121001DDD00C26C78 /* LaunchScreen.storyboard in Resources */,
+				080A8773211E7721003B80BC /* InfoIcon@1x.png in Resources */,
+				08291306211E403D001BAC73 /* TripsIcon@1x.png in Resources */,
+				08291303211E403D001BAC73 /* TripsIcon@3x.png in Resources */,
+				08291302211E403D001BAC73 /* CarIcon@2x.png in Resources */,
+				08291301211E403D001BAC73 /* CarIcon@1x.png in Resources */,
+				08291305211E403D001BAC73 /* CarIcon@3x.png in Resources */,
+				084D7AEE21001DDD00C26C78 /* Assets.xcassets in Resources */,
+				08291307211E403D001BAC73 /* TripsIcon@2x.png in Resources */,
+				084D7AEC21001DDB00C26C78 /* Main.storyboard in Resources */,
+				08291300211E403D001BAC73 /* InfoIcon@2x.png in Resources */,
+				082912FF211E403D001BAC73 /* InfoIcon@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7AF521001DDD00C26C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7B0021001DDD00C26C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C42F8355C59CADFD7845F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1BE0574604F204A2635D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0CE7C1F7E41B31FC3FD2B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084D7ADF21001DDB00C26C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08149F3721BF3662002002C1 /* Trip+CoreDataProperties.swift in Sources */,
+				0863316E21E91472008E43DC /* WelcomeViewController.swift in Sources */,
+				08BB60A12114E53D003F4D87 /* AddTripViewController.swift in Sources */,
+				086D2236210A6C61008C7D45 /* TripDetailViewController.swift in Sources */,
+				08BA972C21055A6700D0AFCC /* TripTableViewCell.swift in Sources */,
+				0863316C21E90AF4008E43DC /* WelcomePageViewController.swift in Sources */,
+				08BA972E210560E100D0AFCC /* TripFinishedViewController.swift in Sources */,
+				0841DC7F210AC08D0051D1D5 /* DriveTracker.xcdatamodeld in Sources */,
+				086AFEBE21011CEE0062C949 /* Weather.swift in Sources */,
+				086AFEBC210117540062C949 /* WeatherAPI.swift in Sources */,
+				08149F3621BF3662002002C1 /* Trip+CoreDataClass.swift in Sources */,
+				081B1A48211A89710036B6FE /* TripInfoViewController.swift in Sources */,
+				084D7B15210023B400C26C78 /* TrackViewController.swift in Sources */,
+				086D2234210A5E57008C7D45 /* TripsTableViewController.swift in Sources */,
+				086D2232210A5C62008C7D45 /* TripStore.swift in Sources */,
+				0863317221E9148A008E43DC /* LocationViewController.swift in Sources */,
+				084D7AE721001DDB00C26C78 /* AppDelegate.swift in Sources */,
+				0863317021E91481008E43DC /* HoursViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7AF321001DDD00C26C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084D7AFC21001DDD00C26C78 /* DriveTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084D7AFE21001DDD00C26C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084D7B0721001DDD00C26C78 /* DriveTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		084D7AF921001DDD00C26C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084D7AE221001DDB00C26C78 /* DriveTracker */;
+			targetProxy = 084D7AF821001DDD00C26C78 /* PBXContainerItemProxy */;
+		};
+		084D7B0421001DDD00C26C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 084D7AE221001DDB00C26C78 /* DriveTracker */;
+			targetProxy = 084D7B0321001DDD00C26C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		084D7AEA21001DDB00C26C78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084D7AEB21001DDB00C26C78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		084D7AEF21001DDD00C26C78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				084D7AF021001DDD00C26C78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		084D7B0921001DDD00C26C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		084D7B0A21001DDD00C26C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		084D7B0C21001DDD00C26C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1273BD81356F87BF6FEE1CE /* Pods-DriveTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		084D7B0D21001DDD00C26C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2CC08255763F8462DDA361 /* Pods-DriveTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		084D7B0F21001DDD00C26C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B92D6397612BAC62724566 /* Pods-DriveTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveTracker.app/DriveTracker";
+			};
+			name = Debug;
+		};
+		084D7B1021001DDD00C26C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31A3AE9809CBB9C59911639 /* Pods-DriveTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveTracker.app/DriveTracker";
+			};
+			name = Release;
+		};
+		084D7B1221001DDD00C26C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98440C5E4485695D652868D /* Pods-DriveTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveTracker;
+			};
+			name = Debug;
+		};
+		084D7B1321001DDD00C26C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74977FBDFE255E0DB06E280 /* Pods-DriveTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38T4963794;
+				INFOPLIST_FILE = DriveTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cmulholland.DriveTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		084D7ADE21001DDB00C26C78 /* Build configuration list for PBXProject "DriveTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084D7B0921001DDD00C26C78 /* Debug */,
+				084D7B0A21001DDD00C26C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084D7B0B21001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084D7B0C21001DDD00C26C78 /* Debug */,
+				084D7B0D21001DDD00C26C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084D7B0E21001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084D7B0F21001DDD00C26C78 /* Debug */,
+				084D7B1021001DDD00C26C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		084D7B1121001DDD00C26C78 /* Build configuration list for PBXNativeTarget "DriveTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084D7B1221001DDD00C26C78 /* Debug */,
+				084D7B1321001DDD00C26C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0841DC7D210AC08D0051D1D5 /* DriveTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0841DC7E210AC08D0051D1D5 /* DriveTracker.xcdatamodel */,
+			);
+			currentVersion = 0841DC7E210AC08D0051D1D5 /* DriveTracker.xcdatamodel */;
+			path = DriveTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 084D7ADB21001DDB00C26C78 /* Project object */;
+}
