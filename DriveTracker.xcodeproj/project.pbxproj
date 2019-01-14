@@ -39,6 +39,7 @@
 		08BA972C21055A6700D0AFCC /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA972B21055A6700D0AFCC /* TripTableViewCell.swift */; };
 		08BA972E210560E100D0AFCC /* TripFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA972D210560E100D0AFCC /* TripFinishedViewController.swift */; };
 		08BB60A12114E53D003F4D87 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BB60A02114E53D003F4D87 /* AddTripViewController.swift */; };
+		08F72F7021EC231E005CC036 /* PrivacyPolicy.md in Resources */ = {isa = PBXBuildFile; fileRef = 08F72F6F21EC231E005CC036 /* PrivacyPolicy.md */; };
 		2DAE46A94544D8F6CC18BF27 /* Pods_DriveTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60937974A17F1530AA0CFC42 /* Pods_DriveTrackerTests.framework */; };
 		2DCA88D45BA15AD7E94C4B91 /* Pods_DriveTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDB288216F56B90EEAA698 /* Pods_DriveTracker.framework */; };
 		81980F93B4EB442C7275CA16 /* Pods_DriveTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F7759877AA8BC30CA56F94 /* Pods_DriveTrackerUITests.framework */; };
@@ -101,6 +102,7 @@
 		08BA972B21055A6700D0AFCC /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		08BA972D210560E100D0AFCC /* TripFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFinishedViewController.swift; sourceTree = "<group>"; };
 		08BB60A02114E53D003F4D87 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		08F72F6F21EC231E005CC036 /* PrivacyPolicy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
 		32DDB288216F56B90EEAA698 /* Pods_DriveTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60937974A17F1530AA0CFC42 /* Pods_DriveTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F7759877AA8BC30CA56F94 /* Pods_DriveTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +213,7 @@
 				084D7AED21001DDD00C26C78 /* Assets.xcassets */,
 				08291308211E406F001BAC73 /* Images */,
 				084D7AF221001DDD00C26C78 /* Info.plist */,
+				08F72F6F21EC231E005CC036 /* PrivacyPolicy.md */,
 			);
 			path = DriveTracker;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				08291302211E403D001BAC73 /* CarIcon@2x.png in Resources */,
 				08291301211E403D001BAC73 /* CarIcon@1x.png in Resources */,
 				08291305211E403D001BAC73 /* CarIcon@3x.png in Resources */,
+				08F72F7021EC231E005CC036 /* PrivacyPolicy.md in Resources */,
 				084D7AEE21001DDD00C26C78 /* Assets.xcassets in Resources */,
 				08291307211E403D001BAC73 /* TripsIcon@2x.png in Resources */,
 				084D7AEC21001DDB00C26C78 /* Main.storyboard in Resources */,
